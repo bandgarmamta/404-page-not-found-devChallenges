@@ -23,11 +23,11 @@ body{
     font-family: Inconsolata;
     font-weight: bold;
     font-style: normal;
-    font-size:24px;
+    font-size:1.5rem;
     color: var(--primary-color);
-    line-height: 36px;
-    margin-left:80px;
-    margin-top:40px;
+    line-height: 1.5px; /*2.25*/
+    margin-left:10vw;
+    margin-top:5vh;
     letter-spacing: -0.08em;
     text-transform: uppercase;
 }
@@ -36,12 +36,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap:wrap;
 }
 
 .error-message{
     display: flex;
     flex-direction: column;
-    gap:6vh;
+    gap:5vh;
     width:45em;
 }
 
@@ -53,8 +54,8 @@ img{
     font-family: Space Mono;
     font-weight: bold;
     font-style: normal;
-    font-size: 64px;
-    line-height: 95px;
+    font-size: 4rem;
+    line-height: 12vh;
     letter-spacing: 0.035em;
     color:var(--primary-color);
 }
@@ -63,8 +64,8 @@ img{
     font-family: Space Mono;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 5vh;
     letter-spacing: 0.035em;
     color:var(--secondary-color);
     width:18em;
@@ -76,10 +77,10 @@ img{
     font-family: Space Mono;
     font-weight: bold;
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.8rem;
     background-color: #333333;
     color:#ffffff;
-    line-height:21px ;
+    line-height:2.8vh ;
     letter-spacing: -0.035em;
     padding: 1rem 2rem;
     width:15em;
@@ -89,13 +90,57 @@ img{
     font-family:Montserrat ;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.8rem;
+    line-height: 2.4vh;
     text-align: center;
     color:#BDBDBD;
-    margin-top:2.5rem;
+    margin-top:10rem;
 }
 
 .footer a{
     color:#BDBDBD;
+}
+
+@media (max-width:480px) {
+    body{
+        gap:5vh;
+    }
+
+    .error{
+        margin-left:0;
+        gap:6vh;
+    }
+
+    img{
+        width:42vh;
+    }
+
+    .error-message{
+        width: 95vw;
+        gap:2vh
+    }
+
+    .error-heading{
+        width:100%;
+        font-size:3rem;
+        line-height:9vh
+    }
+
+    .error-paragraph{
+        width: 100%;
+        font-size:1rem;
+        line-height:26px;
+    }
+
+    .btn{
+        font-size:0.8rem;
+        line-height: 2.8vh;
+    }
+
+    .footer{
+        margin-top:1rem;
+    }
+
+
+
 }
