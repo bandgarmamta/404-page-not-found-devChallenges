@@ -8,9 +8,10 @@ body{
     margin:0;
     padding:0;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     position:relative;
-
+    gap:7vh;
 }
 
 .heading{
@@ -24,8 +25,77 @@ body{
     font-style: normal;
     font-size:24px;
     color: var(--primary-color);
+    line-height: 36px;
     margin-left:80px;
     margin-top:40px;
     letter-spacing: -0.08em;
     text-transform: uppercase;
+}
+
+.error{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.error-message{
+    display: flex;
+    flex-direction: column;
+    gap:6vh;
+    width:45em;
+}
+
+img{
+    width: 30vw;
+}
+
+.error-heading{
+    font-family: Space Mono;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: 0.035em;
+    color:var(--primary-color);
+}
+
+.error-paragraph{
+    font-family: Space Mono;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.035em;
+    color:var(--secondary-color);
+    width:18em;
+}
+
+
+
+.btn{
+    font-family: Space Mono;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    background-color: #333333;
+    color:#ffffff;
+    line-height:21px ;
+    letter-spacing: -0.035em;
+    padding: 1rem 2rem;
+    width:15em;
+}
+
+.footer{
+    font-family:Montserrat ;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color:#BDBDBD;
+    margin-top:0.3rem;
+}
+
+.footer a{
+    color:#BDBDBD;
 }
