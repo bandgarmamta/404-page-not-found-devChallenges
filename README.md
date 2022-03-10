@@ -71,4 +71,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [bandgarmamta](https://bandgarmamta.netlify.app/)
 - GitHub [bandgarmamta](https://github.com/bandgarmamta)
-- Twitter [bandgar_mamta](https://{twitter.com/your-username})
+- Twitter [bandgar_mamta](https://twitter.com/bandgar_mamta)
